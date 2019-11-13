@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 import javax.inject.Inject
 
 @MicronautTest
-class GreeterControllerTest {
+class GreetingControllerTest {
 
     @Inject
     lateinit var client: GreetingClient

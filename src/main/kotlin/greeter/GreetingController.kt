@@ -5,7 +5,7 @@ import io.micronaut.http.annotation.Get
 import javax.inject.Inject
 
 @Controller("/greet")
-class GreeterController @Inject constructor(
+class GreetingController @Inject constructor(
     private val greetingService: GreetingService
 ) {
 
