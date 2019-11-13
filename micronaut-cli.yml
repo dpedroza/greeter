@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: greeter
+---
+testFramework: kotlintest
+sourceLanguage: kotlin
