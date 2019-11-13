@@ -41,14 +41,9 @@ dependencies {
     testImplementation "io.mockk:mockk:1.9.3"
     testImplementation "io.kotlintest:kotlintest-runner-junit5:3.3.2"
 
-    testCompile "org.junit.vintage:junit-vintage-engine:5.4.2"
-    testCompile "org.junit.jupiter:junit-jupiter-api:5.4.2"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.4.2"
     testRuntime "org.junit.jupiter:junit-jupiter-engine:5.4.2"
-    testCompile "io.micronaut:micronaut-inject-java:${micronautVersion}"
-    testCompile "io.micronaut.test:micronaut-test-junit5:1.0.4"
-    testCompile "org.mockito:mockito-junit-jupiter:2.25.0"
-    testCompile "org.mockito:mockito-inline:2.7.13"
-    testCompile "org.junit.jupiter:junit-jupiter-params:5.4.2"
+    testImplementation "io.micronaut.test:micronaut-test-junit5:1.0.4"
 }
 
 test.classpath += configurations.developmentOnly
