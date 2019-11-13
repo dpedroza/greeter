@@ -1,3 +1,5 @@
 micronaut:
   application:
     name: greeter
+greeting:
+    prefix: Hello
